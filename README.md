@@ -2,4 +2,4 @@
 
 ## Projeto: Gestão de escola (Alunos, Matrículas e Professores)
 
-![Modelo](./atvDEReMER.drawio.png)
+![Modelo](atvDEReMER.drawio.png)
