@@ -1,0 +1,21 @@
+Entidades,Atributo,Tipo,Tamanho,Descri��o
+Alunos,Id,int,11,chave prim�ria
+Alunos,Nome,varchar,40,nome do aluno
+Alunos,Idade,int,5,idade do aluno
+Alunos,Nascimento,int,20,data do nascimento do aluno
+Alunos,Turma,varchar,1,letra da turma do aluno
+Alunos,Telefone,int ,10,n�mero do telefone do aluno
+Disciplina,Id,int ,11,chave prim�ria
+Disciplina,Nome,varchar,11,nome da disciplina
+Disciplina,Quantidade,varchar,14,numero de aulas por turma
+Disciplina,Professor,varchar,13,nome do professor que ensina
+Professor,id,int ,11,chave prim�ria
+Professor,Nome,varchar,40,nome do professor 
+Professor,Idade,int ,5,idade do professor
+Professor,Nascimento,int ,20,data do nascimento do professor
+Professor,Telefone,int ,10,numero do telefone do professor
+Professor,Especialidade,varchar,16,nome da especialidade do professor 
+Matricula,id_aluno,int ,11,chave prim�ria
+Matricula,id_matr�cula,int ,11,chave prim�ria
+Matricula,id_disciplina,int ,11,chave prim�ria
+Matricula,nome do aluno,varchar,40,nome do aluno
