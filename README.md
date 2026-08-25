@@ -28,3 +28,6 @@
 |Matrícula|`id_matrícula`|`int`|`16`|Chave Primária|
 |Matrícula|`id_disciplina`|`int`|`16`|Chave Primária|
 |Matrícula|`Nome do Aluno`|`varchar`|`16`|Nome do Aluno|
+
+# Tabelas em CSV
+
