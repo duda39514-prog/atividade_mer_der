@@ -6,9 +6,9 @@
 
 ## Código Dicionário de Dados
 
-|Operação|Código Markdown|Visão|
-|-|-|-|
-|Multiplicação|`$2 \times 3 = 6$`|$2 \times 3 = 6$|
+|Entidade|Atributo|Tipo|Tamanho|Descrição
+|-|-|-|-|-|
+|Alunos|id|int|11|Chave Primária|
 |Divisão|`$6 \div 2 = 3$`|$6 \div 2 = 3$|
 |Fração|`$\frac{1}{2}$`|$\frac{1}{2}$|
 |Raiz quadrada|`$\sqrt{4} = 2$`|$\sqrt{4} = 2$|
