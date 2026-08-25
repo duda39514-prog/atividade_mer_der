@@ -31,5 +31,5 @@
 
 # Tabelas em CSV
 
-|[Aluno.CSV](./Aluno.CSV)|
-|[Disciplina.CSV](./Disciplina.CSV)|
+-[Aluno.CSV](./Aluno.CSV)
+-[Disciplina.CSV](./Disciplina.CSV)
