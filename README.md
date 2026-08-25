@@ -35,6 +35,6 @@
 
 -[Disciplina.CSV](./Disciplina.CSV)
 
--[Matrícula.CSV](./Matrícula.CSV)|
+-[Matrícula.CSV](./Matrícula.CSV)
 
--[Professor.CSV](./professor.CSV)|
+-[Professor.CSV](./professor.CSV)
