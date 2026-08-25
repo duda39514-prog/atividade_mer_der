@@ -4,7 +4,7 @@
 
 ![Modelo](./atvDEReMER.drawio.png)
 
-## Código Dicionário de Dados
+## Código "Dicionário de Dados"
 
 |Entidade|Atributo|Tipo|Tamanho|Descrição
 |-|-|-|-|-|
