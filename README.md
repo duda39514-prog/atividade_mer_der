@@ -1,4 +1,4 @@
-# Atividade Mer_Der
+# Atividade Mer e Der
 
 ## Projeto: Gestão de escola (Alunos, Matrículas e Professores)
 
