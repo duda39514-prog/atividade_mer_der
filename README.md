@@ -91,7 +91,7 @@ describe pedido;
 ```
 # MySQL
 
-![Modelo](./imagem.png)
+![Modelo](./MYsql.png)
 
 ![Modelo](./designerpedidos.png)
 
