@@ -39,4 +39,55 @@
 
 * [Professor.CSV](./professor.CSV)
 
+## Atividade ddl.sql
+
+# Gestão de Pedidos (Professor)
+
+# Código
+```
+create database gestao_pedidos;
+-- Acessa o Banco de dados
+use gestao_pedidos;
+-- Criar a tabela de Produtos
+create table clientes(
+    id int primary key not null auto_increment,
+    nome varchar(40) not null,
+    complemento varchar(200),
+    numero varchar(40) not null,
+    cep decimal(10,2) not null
+);
+-- Criar a tabela de Fornecedor
+create table telefone(
+    id int primary key not null auto_increment,
+    id_cliente int not null,
+    numero varchar(40) not null,
+    tipo varchar(40) not null
+);
+-- Criar tabela de Compra
+create table produto(
+    id int primary key not null auto_increment,
+    nome_produto varchar(40) not null
+    id_cliente int not null
+);
+create table pedido(
+    id int primary key not null auto_increment,
+    id_produto int not null,
+    id_cliente int not null,
+    quantidade decimal(10,2),
+    valor_unitario decimal(10,2) not null,
+    subtotal decimal(10,2) not null
+);
+-- Criar as chaves estrangeiras (Relacionamentos)
+alter table telefone add constraint possui foreign key (id_cliente) references clientes(id);
+alter table pedido add constraint fornece foreign key (id_produto) references produto(id);
+alter table produto add constraint fornece foreign key (id_cliente) references clientes(id);
+
+-- Vendo as tabelas criadas
+show tables;
+describe clientes;
+describe telefone;
+describe produto;
+describe pedido;
+```
+# MySQL
 
