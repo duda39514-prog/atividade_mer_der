@@ -150,4 +150,4 @@ describe professor;
 
 # MySQL
 
-![Modelo](./MYsql)
+![Modelo](./MYsql.png)
