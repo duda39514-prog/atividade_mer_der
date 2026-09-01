@@ -2,7 +2,7 @@
 
 ## Projeto: Gestão de escola (Alunos, Matrículas e Professores)
 
-![Modelo](./atvDEReMER.drawio.png)
+![Modelo](./mer_der.png)
 
 ## Código "Dicionário de Dados"
 
