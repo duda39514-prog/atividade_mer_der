@@ -91,7 +91,63 @@ describe pedido;
 ```
 # MySQL
 
-![Modelo](./MYsql.png)
-
 ![Modelo](./designerpedidos.png)
 
+## Código do meu desafio (Gestão de Escola)
+
+# Código
+
+```
+drop database if exists gestao_escola;
+
+create database gestao_escola;
+-- Acessa o Banco de dados
+use gestao_escola;
+-- Criar a tabela de Produtos
+create table aluno(
+    id int primary key not null auto_increment,
+    nome varchar(40) not null,
+    idade varchar(20) not null,
+    telefone varchar(40) not null,
+    nascimento varchar(40) not null,
+    email varchar(40) not null,
+    turma varchar(40) not null
+);
+-- Criar a tabela de Fornecedor
+create table disciplina(
+    id int primary key not null auto_increment,
+    professor varchar(40) not null,
+    nome_disciplina varchar(40) not null,
+    quantidade decimal(10,2) not null
+);
+-- Criar tabela de Compra
+create table matricula(
+    id int primary key not null auto_increment,
+    nome_aluno varchar(40) not null,
+    id_aluno int not null,
+    id_matricula int not null,
+    id_disciplina not null
+);
+create table professor(
+    id int primary key not null auto_increment,
+    nome varchar(40) not null,
+    idade varchar(40) not null,
+    nascimento varchar(40) not null,
+    telefone varchar(40) not null,
+    especialidade varchar(40) not null
+);
+-- Criar as chaves estrangeiras (Relacionamentos)
+alter table matricula add constraint possui foreign key (id_aluno) references aluno(id);
+alter table matricula add constraint possui foreign key (id_matricula) references matricula(id);
+alter table matricula add constraint possui foreign key (id_disciplina) references discicplina(id);
+-- Vendo as tabelas criadas
+show tables;
+describe aluno;
+describe disciplina;
+describe matricula;
+describe professor;
+```
+
+# MySQL
+
+![Modelo](./MYsql)
